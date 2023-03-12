@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="1677894746750.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>T4S | Products</title>
+    <link rel="stylesheet" href="product.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo animate__animated animate__fadeInDown">
+        <img src="assets/1677894746750.png" alt="" class="LogoMain" />
+      </div>
+      <div class="navbar animate__animated animate__fadeInRight" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="#">Members</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+    <div class="category-nav animate__animated animate__backInDown">
+      <a class="nav-btn active" href="#navbar">All</a>
+      <a class="nav-btn" href="#tshirt">Tshirt</a>
+      <a class="nav-btn">Jacket</a>
+      <a class="nav-btn" href="#sticker">Sticker</a>
+      <a class="nav-btn">Mugs</a>
+    </div>
+    <div class="bgcontainer">
+      <div class="maincontainer1" id="tshirt">
+        <div class="main1">
+          <h1 class="categoryh1">T-Shirt</h1>
+          <br />
+          <div class="row">
+            <div class="column">
+              <div class="productpic">
+                <img
+                  src="products/Glimpse MockUp_Back.png"
+                  alt=""
+                  class="productpic"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Glimpse Shirt</h1>
+                    <p>This is a limited edition t-shirt made by Spyr.</p>
+                    <p class="price">PHP 800</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopup()" class="btn-M">+ Cart</button>
+                  </div>
+                </div>
+                <div id="popup" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <h1>Glimpse Shirt</h1>
+                    <p>This is a limited edition t-shirt made by Spyr.</p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic">
+                <img src="products/BSMT.png" alt="" class="productpic" />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>BSMT Shirt</h1>
+                    <p>A wardrobe staple that you'll wear again and again.</p>
+                    <p class="price">PHP 800</p>
+                    <div class="buttons">
+                      <button class="btn-H">&#x2665;</button>
+                      <button onclick="openPopup1()" class="btn-M">
+                        + Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="popup1" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup1()">&times;</span>
+                    <h1>BSMT</h1>
+                    <p>A wardrobe staple that you'll wear again and again.</p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic">
+                <img
+                  src="products/DISLACEMENT MAP-Recovered.png"
+                  alt=""
+                  class="productpic"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Gieshoes Shirt</h1>
+                    <p>
+                      If you're looking for a t-shirt that's stylish, look no
+                      further than our tees.
+                    </p>
+                    <p class="price">PHP 750</p>
+                    <div class="buttons">
+                      <button class="btn-H">&#x2665;</button>
+                      <button onclick="openPopup2()" class="btn-M">
+                        + Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="popup2" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup2()">&times;</span>
+                    <h1>Gieshoes Shirt</h1>
+                    <p>
+                      If you're looking for a t-shirt that's stylish, look no
+                      further than our tees.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="productpic">
+                <img src="products/GS.png" alt="" class="productpic" />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>The GS Shirt</h1>
+                    <p>
+                      For a more eco-friendly option, our t-shirts are the
+                      perfect choice.
+                    </p>
+                    <p class="price">PHP 750</p>
+                    <div class="buttons">
+                      <button class="btn-H">&#x2665;</button>
+                      <button onclick="openPopup3()" class="btn-M">
+                        + Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="popup3" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup3()">&times;</span>
+                    <h1>The GS Shirt</h1>
+                    <p>
+                      For a more eco-friendly option, our t-shirts are the
+                      perfect choice.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic">
+                <img src="products/Solo.png" alt="" class="productpic" />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Solo Leveling</h1>
+                    <p>
+                      Our anime-inspired streetwear t-shirts stylish and edgy.
+                    </p>
+                    <p class="price">PHP 800</p>
+                    <div class="buttons">
+                      <button class="btn-H">&#x2665;</button>
+                      <button onclick="openPopup4()" class="btn-M">
+                        + Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="popup4" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup4()">&times;</span>
+                    <h1>Solo Leveling</h1>
+                    <p>
+                      Our anime-inspired streetwear t-shirts stylish and edgy.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic">
+                <img src="products/TRY.png" alt="" class="productpic" />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Strawhat</h1>
+                    <p>Our anime inspired t-shirts feature vibrant designs.</p>
+                    <p class="price">PHP 800</p>
+                    <div class="buttons">
+                      <button class="btn-H">&#x2665;</button>
+                      <button onclick="openPopup5()" class="btn-M">
+                        + Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="popup5" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup5()">&times;</span>
+                    <h1>Strawhat</h1>
+                    <p>Our anime inspired t-shirts feature vibrant designs.</p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="productpic">
+                <img
+                  src="products/T-Shirt MockUp_Back.png"
+                  alt=""
+                  class="productpic"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Nico Robin</h1>
+                    <p>
+                      A fictional character from the popular anime and manga
+                      series.
+                    </p>
+                    <p class="price">PHP 800</p>
+                    <div class="buttons">
+                      <button class="btn-H">&#x2665;</button>
+                      <button onclick="openPopup6()" class="btn-M">
+                        + Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="popup6" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup6()">&times;</span>
+                    <h1>Nico Robin</h1>
+                    <p>
+                      A fictional character from the popular anime and manga
+                      series.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="productpic">
+                <img src="products/Rush.png" alt="" class="productpic" />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Motiv Tshirt</h1>
+                    <p>
+                      Our premium t-shirts are the epitome of luxury and
+                      comfort.
+                    </p>
+                    <p class="price">PHP 750</p>
+                    <div class="buttons">
+                      <button class="btn-H">&#x2665;</button>
+                      <button onclick="openPopup7()" class="btn-M">
+                        + Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="popup7" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup7()">&times;</span>
+                    <h1>Motiv Tshirt</h1>
+                    <p>
+                      Our premium t-shirts are the epitome of luxury and
+                      comfort.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic">
+                <img src="products/ride.png" alt="" class="productpic" />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Ride Like BMW</h1>
+                    <p>
+                      With a retro feel and a modern fit, it is perfect for any
+                      occasion.
+                    </p>
+                    <p class="price">PHP 750</p>
+                    <div class="buttons">
+                      <button class="btn-H">&#x2665;</button>
+                      <button onclick="openPopup8()" class="btn-M">
+                        + Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="popup8" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup8()">&times;</span>
+                    <h1>Ride Like BMW</h1>
+                    <p>
+                      With a retro feel and a modern fit, it is perfect for any
+                      occasion.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="maincontainer1" id="sticker">
+        <div class="main1">
+          <h1 class="categoryh1">Sticker</h1>
+          <br />
+          <div class="row">
+            <div class="column">
+              <div class="productpic2">
+                <img
+                  src="assets/1676204099087.png"
+                  alt=""
+                  class="productpic2"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Boss MotoWorkz</h1>
+                    <p>
+                      a high-quality adhesive decal that features the brand's
+                      logo.
+                    </p>
+                    <p class="price">PHP 30</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa1()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa1" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa1()">&times;</span>
+                    <h1>Boss MotoWorkz</h1>
+                    <p>
+                      a high-quality adhesive decal that features the brand's
+                      logo.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic2">
+                <img
+                  src="assets/1677481367802.png"
+                  alt=""
+                  class="productpic2"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>T4S Moto</h1>
+                    <p>
+                      designed to be used on a variety of surfaces like
+                      motorcycle, helmets, etc.
+                    </p>
+                    <p class="price">PHP 35</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa2()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa2" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa2()">&times;</span>
+                    <h1>T4S Moto</h1>
+                    <p>
+                      designed to be used on a variety of surfaces like
+                      motorcycle, helmets, etc.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic2">
+                <img
+                  src="assets/1677989323953.png"
+                  alt=""
+                  class="productpic2"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Gieshoes</h1>
+                    <p>
+                      Is a shoe-themed sticker that features a unique design.
+                    </p>
+                    <p class="price">PHP 38</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa3()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa3" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa3()">&times;</span>
+                    <h1>Gieshoes</h1>
+                    <p>
+                      Is a shoe-themed sticker that features a unique design.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="productpic2">
+                <img
+                  src="assets/1678145878978.png"
+                  alt=""
+                  class="productpic2"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>BossMW Logo</h1>
+                    <p>High grade sticker made by Boss Moto Workz.</p>
+                    <p class="price">PHP 33</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa4()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa4" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa4()">&times;</span>
+                    <h1>BossMW Logo</h1>
+                    <p>High grade sticker made by Boss Moto Workz.</p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic2">
+                <img src="assets/Spyr.png" alt="" class="productpic2" />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>SPYR Premium</h1>
+                    <p>High quality water resistant sticker made by SPYR.</p>
+                    <p class="price">PHP 26</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa5()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa5" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa5()">&times;</span>
+                    <h1>SPYR Premium</h1>
+                    <p>High quality water resistant sticker made by SPYR.</p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic2">
+                <img
+                  src="assets/1677993587254.png"
+                  alt=""
+                  class="productpic2"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>BMW Motors</h1>
+                    <p>
+                      A Motor-themed premium sticker that features a motorclass
+                      design.
+                    </p>
+                    <p class="price">PHP 26</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa6()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa6" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa6()">&times;</span>
+                    <h1>BMW Motors</h1>
+                    <p>
+                      A Motor-themed premium sticker that features a motorclass
+                      design.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="productpic2">
+                <img
+                  src="assets/1677891793917.png"
+                  alt=""
+                  class="productpic2"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Air Jordan</h1>
+                    <p>
+                      An eye-catching sticker that's perfect for fans of the Air
+                      Jordan line.
+                    </p>
+                    <p class="price">PHP 46</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa7()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa7" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa7()">&times;</span>
+                    <h1>Air Jordan</h1>
+                    <p>
+                      An eye-catching sticker that's perfect for fans of the Air
+                      Jordan line.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic2">
+                <img
+                  src="assets/1677897780822.png"
+                  alt=""
+                  class="productpic2"
+                />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>Gieshoes V2</h1>
+                    <p>A new version of premium sticker made by GS Team.</p>
+                    <p class="price">PHP 40</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa8()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa8" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa8()">&times;</span>
+                    <h1>Gieshoes V2</h1>
+                    <p>A new version of premium sticker made by GS Team.</p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="productpic2">
+                <img src="assets/fauna.png" alt="" class="productpic2" />
+              </div>
+              <div class="desc">
+                <div class="textNbtn">
+                  <div class="productText">
+                    <h1>FAUNA</h1>
+                    <p>
+                      A simple premium sticker of Flood Monitoring System in
+                      Biñan.
+                    </p>
+                    <p class="price">PHP 20</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn-H">&#x2665;</button>
+                    <button onclick="openPopupa9()" class="btn-M">
+                      + Cart
+                    </button>
+                  </div>
+                </div>
+                <div id="popupa9" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopupa9()">&times;</span>
+                    <h1>FAUNA</h1>
+                    <p>
+                      A simple premium sticker of Flood Monitoring System in
+                      Biñan.
+                    </p>
+                    <br />
+                    <label for="color-select" class="textinfo">Color</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">White</option>
+                      <option value="">Black</option>
+                      <option value="">Gray</option>
+                      <option value="">Yellow</option>
+                    </select>
+                    <br /><br /><label for="color-select" class="textinfo"
+                      >Sizes</label
+                    ><br />
+                    <select id="color-select" class="textbox1">
+                      <option value="">-Select-</option>
+                      <option value="">Small</option>
+                      <option value="">Medium</option>
+                      <option value="">Large</option>
+                      <option value="">XL</option>
+                    </select>
+                    <br /><br /><label class="textinfo">QTY</label><br />
+
+                    <input
+                      type="number"
+                      class="textboxs"
+                      id="number-input"
+                      value="0"
+                    />
+                    <button class="btn-l" onclick="decrement()">-</button>
+                    <button class="btn-l" onclick="increment()">+</button>
+
+                    <br /><br /><button
+                      type="submit"
+                      class="btn-r"
+                      id="addtocart"
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cart">
+      <button class="cart-button" onclick="openPopupCRT()">
+        <img src="assets/shopping-cart.png" alt="" class="cartlogo" />
+      </button>
+      <div id="popupCRT" class="popupCRT">
+        <div class="popup-contentCRT">
+          <span class="close" onclick="closePopupCRT()">&times;</span>
+          <h1 class="categoryh1">Order ID: 183723</h1>
+          <h1 class="categoryh2">Date: 07/21/23</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Sizes</th>
+                <th>Color</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+          </table>
+          <div class="checkoutdetails">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Product 1</td>
+                  <td>XL</td>
+                  <td>Green</td>
+                  <td>3 pcs</td>
+                  <td>$19.99</td>
+                  <td><button class="btn-H">Remove</button></td>
+                </tr>
+                <tr>
+                  <td>Product 1</td>
+                  <td>XL</td>
+                  <td>Green</td>
+                  <td>3 pcs</td>
+                  <td>$19.99</td>
+                  <td><button class="btn-H">Remove</button></td>
+                </tr>
+                <tr>
+                  <td>Product 1</td>
+                  <td>XL</td>
+                  <td>Green</td>
+                  <td>3 pcs</td>
+                  <td>$19.99</td>
+                  <td><button class="btn-H">Remove</button></td>
+                </tr>
+                <tr>
+                  <td>Product 1</td>
+                  <td>XL</td>
+                  <td>Green</td>
+                  <td>3 pcs</td>
+                  <td>$19.99</td>
+                  <td><button class="btn-H">Remove</button></td>
+                </tr>
+                <tr>
+                  <td>Product 1</td>
+                  <td>XL</td>
+                  <td>Green</td>
+                  <td>3 pcs</td>
+                  <td>$19.99</td>
+                  <td><button class="btn-H">Remove</button></td>
+                </tr>
+
+                <!-- more rows here -->
+              </tbody>
+            </table>
+          </div>
+          <div class="payment">
+            <h1 class="categoryh3">Shipping Fee: 38</h1>
+            <h1 class="categoryh3">Voucher Discount: 38</h1>
+            <h1 class="categoryh3">VAT Tax: 12%</h1>
+            <h1 class="categoryh22">TOTAL AMOUNT: 586</h1>
+          </div>
+          <button class="checkout-button">Checkout</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      function increment() {
+        var input = document.getElementById("number-input");
+        input.value = parseInt(input.value) + 1;
+      }
+
+      function decrement() {
+        var input = document.getElementById("number-input");
+        input.value = parseInt(input.value) - 1;
+      }
+    </script>
+    <script>
+      function openPopup() {
+        document.getElementById("popup").style.display = "block";
+      }
+
+      function closePopup() {
+        document.getElementById("popup").style.display = "none";
+      }
+      function openPopup1() {
+        document.getElementById("popup1").style.display = "block";
+      }
+
+      function closePopup1() {
+        document.getElementById("popup1").style.display = "none";
+      }
+      function openPopup2() {
+        document.getElementById("popup2").style.display = "block";
+      }
+
+      function closePopup2() {
+        document.getElementById("popup2").style.display = "none";
+      }
+      function openPopup3() {
+        document.getElementById("popup3").style.display = "block";
+      }
+
+      function closePopup3() {
+        document.getElementById("popup3").style.display = "none";
+      }
+      function openPopup4() {
+        document.getElementById("popup4").style.display = "block";
+      }
+
+      function closePopup4() {
+        document.getElementById("popup4").style.display = "none";
+      }
+      function openPopup5() {
+        document.getElementById("popup5").style.display = "block";
+      }
+
+      function closePopup5() {
+        document.getElementById("popup5").style.display = "none";
+      }
+      function openPopup6() {
+        document.getElementById("popup6").style.display = "block";
+      }
+
+      function closePopup6() {
+        document.getElementById("popup6").style.display = "none";
+      }
+      function openPopup7() {
+        document.getElementById("popup7").style.display = "block";
+      }
+
+      function closePopup7() {
+        document.getElementById("popup7").style.display = "none";
+      }
+      function openPopup8() {
+        document.getElementById("popup8").style.display = "block";
+      }
+
+      function closePopup8() {
+        document.getElementById("popup8").style.display = "none";
+      }
+      function openPopup9() {
+        document.getElementById("popup9").style.display = "block";
+      }
+
+      function closePopup9() {
+        document.getElementById("popup9").style.display = "none";
+      }
+      function openPopupa1() {
+        document.getElementById("popupa1").style.display = "block";
+      }
+
+      function closePopupa1() {
+        document.getElementById("popupa1").style.display = "none";
+      }
+      function openPopupa2() {
+        document.getElementById("popupa2").style.display = "block";
+      }
+
+      function closePopupa2() {
+        document.getElementById("popupa2").style.display = "none";
+      }
+      function openPopupa3() {
+        document.getElementById("popupa1").style.display = "block";
+      }
+
+      function closePopupa3() {
+        document.getElementById("popupa3").style.display = "none";
+      }
+      function openPopupa4() {
+        document.getElementById("popupa4").style.display = "block";
+      }
+
+      function closePopupa4() {
+        document.getElementById("popupa4").style.display = "none";
+      }
+      function openPopupa5() {
+        document.getElementById("popupa5").style.display = "block";
+      }
+
+      function closePopupa5() {
+        document.getElementById("popupa5").style.display = "none";
+      }
+      function openPopupa6() {
+        document.getElementById("popupa6").style.display = "block";
+      }
+
+      function closePopupa6() {
+        document.getElementById("popupa6").style.display = "none";
+      }
+      function openPopupa7() {
+        document.getElementById("popupa7").style.display = "block";
+      }
+
+      function closePopupa7() {
+        document.getElementById("popupa7").style.display = "none";
+      }
+      function openPopupa8() {
+        document.getElementById("popupa8").style.display = "block";
+      }
+
+      function closePopupa8() {
+        document.getElementById("popupa8").style.display = "none";
+      }
+      function openPopupa9() {
+        document.getElementById("popupa9").style.display = "block";
+      }
+
+      function closePopupa9() {
+        document.getElementById("popupa9").style.display = "none";
+      }
+
+      function openPopupCRT() {
+        document.getElementById("popupCRT").style.display = "block";
+      }
+
+      function closePopupCRT() {
+        document.getElementById("popupCRT").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

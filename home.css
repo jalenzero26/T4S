@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Helvet;
+    src: url(fonts/FreeSans.otf);
+
+    font-family: Gilroy;
+    src: url(fonts/Gilroy-ExtraBold.otf);
+
+    font-family: Rationell;
+    src: url(fonts/Fontspring-DEMO-rationell-regular.otf);
+
+    font-family: Rhizome;
+    src: url(fonts/Rhizome-RegularTrial.otf);
+}
+html {
+  scroll-behavior: smooth;
+}
+*{
+margin: 0;
+     text-decoration: none; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    font-size: 18px;
+    /* padding: 10px; */
+    position: fixed;
+    padding-left: 55px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  nav a {
+    
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-right: 40px; */
+    font-family: Rhizome;
+    
+
+  }
+
+  nav a:hover {
+    color: #0c0c0c;
+    background-color:#dab71f;
+    border-radius: 50px;
+    -webkit-transition: width 0.8s ease;
+    transition: background-color 0.8s ease;
+  }
+
+  .navbar {
+    margin-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+  }
+
+  .logo {
+    display: inline-block;
+    justify-content: flex-start;
+    z-index: 2;
+    padding-right: 50%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    flex: 3;
+   
+  }
+  .LogoMain {
+    object-fit: contain;
+    width: 80px;
+    height: 80px;
+   
+  }
+  .LogoMain:hover {
+    background-color:#dab71f;
+    cursor: pointer;
+   
+  }
+
+  /* Style for the main content */
+  .maincontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f8f8f8;
+  }
+  
+  .container1, .container2 {
+    width: 48%; /* adjust this value to change the width of the boxes */
+    height: 100px; /* adjust this value to change the height of the boxes */
+    background-color: transparent; /* adjust this value to change the background color of the boxes */
+    max-width: 800px;
+    margin: 80px auto 40px;
+    padding-bottom: 40%;
+    /* padding: 20px; */
+    /* text-align: center; */
+    
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+  }
+
+
+  h1 {
+    font-size: clamp(1.5625rem, 0.7031rem + 2.75vw, 2.25rem);
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 23%;
+  }
+
+  p {
+    
+    font-size: clamp(1rem, 0.6875rem + 1vw, 1.25rem);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  h1, p {
+    /* margin-top: 15%; */
+    padding-left: 8%;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: Gilroy;
+  }
+  
+  .t4s-team{
+    justify-content: center;
+    flex:1;
+    width: 40vw;
+    height: 50vw;
+    object-fit: contain;
+    cursor: pointer;
+    margin-left: 8%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+      max-width: 90%;
+    }
+    .maincontainer{
+      flex-direction: column;
+      text-align: center;
+      overflow-x: hidden;
+    }
+ 
+    h1{
+      margin-top: -180%;
+     
+    }
+    .container1, .container2 {
+      flex: 1;
+    }
+    .container1{
+      order: 2;
+      padding: 20px;
+      margin-left: 25%;
+    }
+    .container2{
+      flex-wrap: wrap;
+      width: 200px;
+      justify-content: center;
+      margin: 20px 50px;
+    }
+    .t4s-team{
+      margin-top: 8%;
+      margin-left: 0;
+      width: 400px;
+      height: 650px;
+     object-fit: cover;
+     order: 1;
+    }
+    .nav-btn{
+      margin: 2% 0%;
+    }
+    .navbar {
+      display: none;
+      flex-wrap: wrap;
+    }
+  
+  }
